@@ -1,4 +1,8 @@
 # Deploying a Golang Application on AWS EC2
+<div>
+<img align="center" src="https://github.com/Omkar0114/AWS/blob/main/images/instance.png">
+</div>
+
 
 ### Testing the project locally
 
@@ -71,3 +75,7 @@ alloted IPv4 address of EC2 instance:8080
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
 
 ### Project is deployed on AWS 🎉
+
+<div>
+<img align="center" src="https://github.com/Omkar0114/AWS/blob/main/images/frontend.png">
+</div>
