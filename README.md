@@ -49,14 +49,24 @@ git clone https://github.com/Omkar0114/AWS.git
 2. Open your terminal
 go inside your cloned project directory using `cd`
 Run following command:
+You need to install golang first, on the Remote VM
+To install golang, follow this [guide](https://golang.org/doc/install)
+Or you can use this command to install golang on Ubuntu
+```
+sudo apt install golang-go
+```
+To check if golang is installed or not, run this command
+```
+go version
+```
+Now run this command to run the project
 ```
 go run main.go
 ```
-
 3. Initialise and start the project
 Open your browser on 
 ```
-localhost:8080
+alloted IPv4 address of EC2 instance:8080
 ```
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
 
